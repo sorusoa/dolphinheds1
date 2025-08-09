@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DolphinHeds | 学生チームによる次世代LP制作</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- 外部CSSファイルを読み込む -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+
+    <!-- ヘッダー -->
+    <header class="fixed top-0 left-0 right-0 z-50 bg-gray-900/50 backdrop-blur-sm border-b border-gray-700/50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold gradient-text">DolphinHeds</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="#strengths" class="hover:text-sky-400 transition-colors">私たちの強み</a>
+                <a href="#gemini-demo" class="hover:text-sky-400 transition-colors">AIデモ</a>
+                <a href="#services" class="hover:text-sky-400 transition-colors">サービス</a>
+                <a href="#flow" class="hover:text-sky-400 transition-colors">制作フロー</a>
+            </nav>
+            <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-2 px-6 rounded-full transition-all duration-300 glow-button">
+                お問い合わせ
+            </a>
+        </div>
+    </header>
+
+    <main class="pt-20">
+
+        <!-- ヒーローセクション -->
+        <section id="hero" class="py-20 md:py-32 text-center relative overflow-hidden">
+            <div class="absolute inset-0 bg-grid-gray-700/20 [mask-image:linear-gradient(to_bottom,white_5%,transparent_100%)]"></div>
+            <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-2/3 h-2/3 bg-sky-500/20 rounded-full blur-3xl"></div>
+            <div class="container mx-auto px-6 relative z-10">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-black mb-4 leading-tight">
+                    <span class="gradient-text">AIで、ビジネスを加速させる。</span><br>
+                    学生チームが創る、次世代のLP制作。
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8">
+                    高コストなLP制作の常識を覆す。AIネイティブ世代の私たちが、最新技術と若者の感性で、ターゲットに「刺さる」LPを驚きの価格で実現します。
+                </p>
+                <div class="flex justify-center items-center space-x-4">
+                    <a href="#contact" class="bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 glow-button">
+                        無料で相談する
+                    </a>
+                    <a href="#services" class="border-2 border-gray-400 hover:bg-gray-700 hover:border-gray-700 text-white font-bold py-3 px-8 rounded-full text-lg transition-colors">
+                        サービス詳細へ
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 私たちの強みセクション -->
+        <section id="strengths" class="py-20 bg-gray-900 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title mb-4">OUR STRENGTHS</h2>
+                    <p class="text-lg text-gray-400">私たちが選ばれる3つの理由</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- 強み 1: 圧倒的なコストパフォーマンス -->
+                    <div class="glass-card p-8 text-center transform hover:scale-105 hover:-translate-y-2 transition-transform duration-300">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v.01M12 6v-1h4v1h-4zm-2 10v-1h4v1h-4z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M12 6h.01M12 18v-2m0-12V4m0 16v-2m0-12V4"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">圧倒的なコストパフォーマンス</h3>
+                        <p class="text-gray-300">AIツールを駆使した効率化で、高品質なLPを一件50,000円という破格の価格でご提供。中小企業や個人事業主様の大きな力になります。</p>
+                    </div>
+                    <!-- 強み 2: 若者の心に響くデザイン -->
+                    <div class="glass-card p-8 text-center transform hover:scale-105 hover:-translate-y-2 transition-transform duration-300">
+                        <div class="mb-4">
+                             <svg class="w-16 h-16 mx-auto text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">若者の心に響くデザイン</h3>
+                        <p class="text-gray-300">現役大学生ならではのトレンド感性を活かし、ターゲットに刺さるクリエイティブを制作。特にデザイン面には自信があります。</p>
+                    </div>
+                    <!-- 強み 3: リアルなビジネスへの情熱 -->
+                    <div class="glass-card p-8 text-center transform hover:scale-105 hover:-translate-y-2 transition-transform duration-300">
+                        <div class="mb-4">
+                            <svg class="w-16 h-16 mx-auto text-sky-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.657 7.343A8 8 0 0118 12c0 2.21-1.79 4-4 4s-4-1.79-4-4c0-1.316.632-2.495 1.586-3.23"></path></svg>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2">リアルなビジネスへの情熱</h3>
+                        <p class="text-gray-300">「リアルのビジネスを体感する」を目標に、クライアント様の事業成果に貢献するため、情熱を持って取り組みます。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Gemini AIデモセクション -->
+        <section id="gemini-demo" class="py-20 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title mb-4">AI CATCHPHRASE DEMO</h2>
+                    <p class="text-lg text-gray-400 max-w-2xl mx-auto">私たちのAIの実力を体験してください。あなたのビジネス情報を入力するだけで、Geminiがキャッチコピーを提案します。</p>
+                </div>
+                <div class="max-w-3xl mx-auto glass-card p-8">
+                    <div class="space-y-6">
+                        <div>
+                            <label for="business-desc" class="block text-gray-300 mb-2 font-semibold">事業内容・サービス</label>
+                            <textarea id="business-desc" name="business-desc" rows="3" class="w-full bg-gray-800 border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="例：都心で働く20代女性向けのオンラインヨガ教室"></textarea>
+                        </div>
+                        <div>
+                            <label for="target-audience" class="block text-gray-300 mb-2 font-semibold">ターゲット顧客</label>
+                            <input type="text" id="target-audience" name="target-audience" class="w-full bg-gray-800 border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="例：運動不足に悩むオフィスワーカー">
+                        </div>
+                        <div>
+                            <label for="key-strength" class="block text-gray-300 mb-2 font-semibold">一番の強み・売り</label>
+                            <input type="text" id="key-strength" name="key-strength" class="w-full bg-gray-800 border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-sky-500" placeholder="例：早朝5時からレッスン受講可能">
+                        </div>
+                        <div class="text-center">
+                            <button id="generate-button" class="w-full bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 glow-button flex items-center justify-center">
+                                ✨ キャッチコピーを生成する
+                            </button>
+                        </div>
+                    </div>
+                    <div id="result-area" class="mt-8">
+                        <div id="loader" class="hidden mx-auto loader"></div>
+                        <div id="error-message" class="hidden text-center text-red-400 p-4 bg-red-900/50 rounded-lg"></div>
+                        <div id="catchphrase-results" class="space-y-4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- サービス内容セクション -->
+        <section id="services" class="py-20 bg-gray-900 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title mb-4">SERVICE & PRICE</h2>
+                    <p class="text-lg text-gray-400">コミコミ価格でご提供</p>
+                </div>
+                <div class="max-w-4xl mx-auto glass-card overflow-hidden md:flex">
+                    <div class="md:w-1/2 p-8 md:p-12 bg-gray-800/50">
+                        <h3 class="text-3xl font-bold mb-4">オールインワン・パッケージ</h3>
+                        <p class="text-gray-300 mb-6">LP制作に必要な全てを、一つのパッケージにまとめました。追加料金の心配はありません。</p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-sky-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span>ライティング（キャッチコピー、本文）</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-sky-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span>デザイン制作</span>
+                            </li>
+                            <li class="flex items-center">
+                                <svg class="w-6 h-6 text-sky-400 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                                <span>コーディング（PC・スマホ対応）</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:w-1/2 p-8 md:p-12 flex flex-col justify-center items-center text-center bg-sky-600/10">
+                        <p class="text-lg text-gray-300">提供価格</p>
+                        <p class="text-5xl md:text-6xl font-black my-2">¥50,000</p>
+                        <p class="text-gray-400">(税込)</p>
+                        <a href="#contact" class="mt-6 bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 glow-button">
+                            今すぐ依頼する
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 制作フローセクション -->
+        <section id="flow" class="py-20 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="section-title mb-4">PRODUCTION FLOW</h2>
+                    <p class="text-lg text-gray-400">シンプルで透明性の高い3ステップ</p>
+                </div>
+                <div class="relative">
+                    <!-- 縦線 -->
+                    <div class="absolute left-1/2 -translate-x-1/2 h-full w-0.5 bg-gray-700 hidden md:block"></div>
+                    
+                    <!-- Step 1 -->
+                    <div class="md:flex items-center w-full mb-12">
+                        <div class="md:w-1/2 md:pr-8 md:text-right">
+                            <div class="p-6 glass-card">
+                                <p class="text-sky-400 font-bold mb-2">STEP 1</p>
+                                <h3 class="text-2xl font-bold mb-3">ライティング</h3>
+                                <p class="text-gray-300">構築案に基づき、全てのテキスト（キャッチコピー、ボディコピー等）を執筆します。Googleドキュメントでご確認いただき、認識をすり合わせます。</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block w-12 h-12 rounded-full bg-sky-500 border-4 border-gray-900 flex-shrink-0 flex items-center justify-center text-white font-bold text-xl z-10">1</div>
+                        <div class="md:w-1/2 md:pl-8"></div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="md:flex flex-row-reverse items-center w-full mb-12">
+                        <div class="md:w-1/2 md:pl-8 md:text-left">
+                            <div class="p-6 glass-card">
+                                <p class="text-sky-400 font-bold mb-2">STEP 2</p>
+                                <h3 class="text-2xl font-bold mb-3">デザイン制作</h3>
+                                <p class="text-gray-300">完成原稿を元に、Canva等でビジュアルデザインを作成。写真選定、配色、フォントなどを決定し、LPの「顔」を創り上げます。</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block w-12 h-12 rounded-full bg-sky-500 border-4 border-gray-900 flex-shrink-0 flex items-center justify-center text-white font-bold text-xl z-10">2</div>
+                        <div class="md:w-1/2 md:pr-8"></div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="md:flex items-center w-full">
+                        <div class="md:w-1/2 md:pr-8 md:text-right">
+                            <div class="p-6 glass-card">
+                                <p class="text-sky-400 font-bold mb-2">STEP 3</p>
+                                <h3 class="text-2xl font-bold mb-3">コーディング（実装）</h3>
+                                <p class="text-gray-300">デザインを元に、HTML/CSSやノーコードツールでLPを構築。レスポンシブ対応やアニメーションもこの段階で行い、命を吹き込みます。</p>
+                            </div>
+                        </div>
+                        <div class="hidden md:block w-12 h-12 rounded-full bg-sky-500 border-4 border-gray-900 flex-shrink-0 flex items-center justify-center text-white font-bold text-xl z-10">3</div>
+                        <div class="md:w-1/2 md:pl-8"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お問い合わせセクション -->
+        <section id="contact" class="py-20 bg-gray-900 fade-in-section">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="section-title mb-4">CONTACT US</h2>
+                    <p class="text-lg text-gray-400 max-w-2xl mx-auto">ご相談、ご質問、ご依頼は、お気軽に以下のフォームからお問い合わせください。</p>
+                </div>
+                <div class="max-w-2xl mx-auto glass-card p-8">
+                    <form action="mailto:dolphinheds@gmail.com" method="post" enctype="text/plain">
+                        <div class="mb-4">
+                            <label for="name" class="block text-gray-300 mb-2">お名前</label>
+                            <input type="text" id="name" name="name" class="w-full bg-gray-800 border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-sky-500" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="email" class="block text-gray-300 mb-2">メールアドレス</label>
+                            <input type="email" id="email" name="email" class="w-full bg-gray-800 border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-sky-500" required>
+                        </div>
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-300 mb-2">お問い合わせ内容</label>
+                            <textarea id="message" name="message" rows="5" class="w-full bg-gray-800 border border-gray-600 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-sky-500" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="w-full bg-sky-500 hover:bg-sky-600 text-white font-bold py-3 px-8 rounded-full text-lg transition-all duration-300 glow-button">
+                                送信する
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- フッター -->
+    <footer class="bg-gray-900 border-t border-gray-800">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <p class="text-lg font-bold gradient-text mb-2">DolphinHeds</p>
+            <p>&copy; 2025 DolphinHeds. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 外部JavaScriptファイルを読み込む -->
+    <script src="index.js" defer></script>
+
+</body>
+</html>
